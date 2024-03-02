@@ -1,0 +1,314 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: black;
+    color: white;
+    scroll-behavior: smooth;
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    top: -1px;
+    background-color: white;
+    padding: 9px 9px;
+    box-shadow: 6px 0px 8px black;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 2px;
+    gap: 6px;
+    padding: 6px 6px;
+    cursor: pointer;
+    font-family: sans-serif;
+    margin: 6px 6px;
+}
+
+.nav-bar :hover{
+    background-color: darkblue;
+    border-radius: 28px;
+    color: white;
+    padding: 12px 12px;
+    transition: all 0.5s;
+}
+
+.image-header{
+    background-image: url(pic/header1.jpg.jpg);
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    height: 80vh;
+}
+
+.box{
+    border: 1px solid transparent;
+    width: 800px;
+    height: 300px;
+    position: relative;
+    top: 160px;
+    left: 80px;
+    border-radius: 48px;
+}
+
+.header-box{
+    font-size: 72px;
+    color: white;
+    background-color: tomato;
+    padding: 6px 6px;
+    margin: auto;
+    font-weight: 700;
+}
+
+/* .info{
+    padding: 12px 12px;
+} */
+
+.box-info{
+    background-color: white;
+    color: black;
+    padding: 6px 12px;
+}
+
+.info p{
+    font-weight: 600;
+    margin-bottom: 16px;
+    margin-top: 6px;
+    margin-right: 6px;
+}
+
+.info p i{
+    margin-right: 6px;
+}
+
+.info input{
+    border-radius: 6px;
+    border: 1px solid black;
+    padding: 2px 2px;
+}
+
+.btn{
+    color: white;
+    background-color: royalblue;
+    padding: 8px 8px;
+    border: 1px solid royalblue;
+    border-radius: 36px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+.btn:hover{
+    border: 1px solid black;
+}
+
+.btn i{
+    margin-right: 8px;
+}
+
+.selector{
+    padding: 12px 12px;
+    margin: 12px 12px;
+    margin-bottom: 0px;
+}
+
+.selector h2{
+    font-weight: 500;
+}
+
+.selector p{
+    margin-top: 12px;
+}
+
+.rooms{
+    font-size: 20px;
+}
+
+.room-selector{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 6px 12px;
+    padding: 6px 12px;
+}
+
+.room-selector input{
+    margin-right: 12px;
+    padding: 6px;
+}
+
+.room-selector p{
+    font-weight: 500;
+}
+
+.room-selector i{
+    margin-right: 6px;
+}
+
+.room-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 6px 6px;
+    margin: 6px 6px;
+}
+
+.gap{
+    gap: 20px;
+    letter-spacing: 6px;
+}
+
+.btn1{
+    background-color: black;
+    color: white;
+    font-weight: 400;
+    padding: 6px 6px;
+    border: 1px solid black;
+}
+
+.about{
+    padding: 16px 16px;
+    margin: 16px 16px;
+}
+
+.mt-0{
+    font-size: 36px;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-evenly
+}
+
+.alert p{
+    border: 1px solid #f44336;
+    color: white;
+    background-color: #f44336;
+    font-weight: 500;
+    padding: 16px;
+}
+
+.alert p span{
+    border: 1px solid green;
+    background-color: green;
+    padding: 3px 9px;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.hotel{
+    padding: 6px 6px;
+    margin: 6px 6px;
+}
+
+.hotel h2{
+    font-weight: 600;
+    font-size: 48px;
+}
+
+.multiple-hotel{
+    padding: 6px 6px;
+    margin: 6px 6px;
+}
+
+.email{
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 16px;
+    color: white;
+    padding: 12px 12px;
+    margin: 12px 12px;
+}
+
+.email h1{
+    font-size: 36px;
+    margin-bottom: 22px;
+    margin-top: 22px;
+}
+
+.email p{
+    margin-bottom: 22px;
+}
+
+.email-input{
+    color: black;
+    font-weight: 600;
+    padding: 6px 16px;
+}
+
+.email button{
+    margin-top: 12px;
+    border: 1px solid  #f44336;
+    padding: 6px 16px;
+    background-color: #f44336;
+    margin-bottom: 12px;
+}
+
+.form{
+    padding: 6px 6px;
+    margin: 6px 6px;
+}
+
+.form h1{
+    margin-bottom: 12px;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.form span{
+    margin-bottom: 12px;
+}
+
+.form-box{
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.form-message input{
+    border: 1px solid black;
+    padding: 6px 26px;
+    font-weight: 600;
+    margin: 12px 0px;
+}
+
+.form-message button{
+    margin-top: 12px;
+    border: 1px solid black;
+    color: white;
+    padding: 6px 32px;
+    background-color: black;
+    margin-bottom: 12px;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer p:first-child{
+    margin-top: 12px;
+    padding-top: 32px;
+    padding-bottom: 12px;
+    font-size: 18px;
+}
+
+.footer p:last-child{
+    padding-bottom: 32px;
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 12px;
+}
+
+.footer span i{
+    font-size: 26px;
+    cursor: pointer;
+}
