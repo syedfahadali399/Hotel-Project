@@ -48,16 +48,6 @@ body{
     height: 80vh;
 }
 
-.box{
-    border: 1px solid transparent;
-    width: 800px;
-    height: 300px;
-    position: relative;
-    top: 160px;
-    left: 80px;
-    border-radius: 48px;
-}
-
 .header-box{
     font-size: 72px;
     color: white;
@@ -68,14 +58,18 @@ body{
 }
 
 .box-info{
-    background-color: white;
-    color: black;
-    padding: 6px 12px;
+    padding: 30px 15px;
+}
+
+.info-p{
+    font-size: 48px;
+    font-weight: 800;
+    color: #f44336;
 }
 
 .info p{
     font-weight: 600;
-    margin-bottom: 16px;
+    margin-bottom: 6px;
     margin-top: 6px;
     margin-right: 6px;
 }
@@ -88,6 +82,7 @@ body{
     border-radius: 6px;
     border: 1px solid black;
     padding: 2px 2px;
+    margin-bottom: 12px;
 }
 
 .btn{
