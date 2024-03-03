@@ -4,13 +4,13 @@
     scroll-behavior: smooth;
 }
 
-body{
+/* body{
     background-color: black;
     color: white;
     scroll-behavior: smooth;
-}
+} */
 
-.nav-bar{
+/* .nav-bar{
     display: flex;
     flex-direction: row;
     position: sticky;
@@ -18,9 +18,9 @@ body{
     background-color: white;
     padding: 9px 9px;
     box-shadow: 6px 0px 8px black;
-}
+} */
 
-.nav-bar a{
+/* .nav-bar a{
     text-decoration: none;
     color: black;
     font-weight: 600;
@@ -31,15 +31,15 @@ body{
     cursor: pointer;
     font-family: sans-serif;
     margin: 6px 6px;
-}
+} */
 
-.nav-bar :hover{
+/* .nav-bar :hover{
     background-color: darkblue;
     border-radius: 28px;
     color: white;
     padding: 12px 12px;
     transition: all 0.5s;
-}
+} */
 
 .image-header{
     background-image: url(pic/header1.jpg.jpg);
